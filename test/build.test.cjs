@@ -1,0 +1,5 @@
+const test=require('node:test'),assert=require('node:assert/strict'),crypto=require('node:crypto');const{compileMain}=require('../build.cjs');const hash=s=>crypto.createHash('sha256').update(s).digest('hex');
+test('quotes and newlines stay valid JavaScript',()=>{const src='const label="hello";';const result=compileMain(src,{mainSha256:hash(src),edits:[{start:12,end:19,expected:'"hello"',kind:'string',key:'hello'}]},{hello:'含有"引号\n的中文'});assert.match(result,/\\"/);});
+test('unsupported original rejected',()=>assert.throws(()=>compileMain('x',{mainSha256:'wrong',edits:[]},{}),/hash mismatch/));
+test('changed anchor rejected',()=>assert.throws(()=>compileMain('abc',{mainSha256:hash('abc'),edits:[{start:0,end:1,expected:'z'}]},{}),/location mismatch/));
+test('template evaluation order cannot change',()=>{const src='`a${one()}b${two()}`';const spec={mainSha256:hash(src),edits:[{start:0,end:src.length,expected:src,kind:'template',key:'x',expressions:['one()','two()']}]};assert.throws(()=>compileMain(src,spec,{x:'{1}{0}'}),/placeholders changed/);assert.match(compileMain(src,spec,{x:'甲{0}乙{1}'}),/one\(\).*two\(\)/);});

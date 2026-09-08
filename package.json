@@ -1,0 +1,1 @@
+{"name":"antigravity-zh-cn","version":"1.1.0","private":true,"description":"Offline Simplified Chinese patch builder for Antigravity 2.12.2","scripts":{"test":"node --test","build":"node build.cjs"},"engines":{"node":">=18"}}

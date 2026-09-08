@@ -1,0 +1,6 @@
+.local-build/
+node_modules/
+*.log
+*.asar
+*.exe
+web_bundle/
