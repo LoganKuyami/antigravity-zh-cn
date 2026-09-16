@@ -61,6 +61,27 @@
     },
     {
       "kind": "string",
+      "start": 1571876,
+      "end": 1571899,
+      "key": "Pin this conversation",
+      "expected": "\"Pin this conversation\""
+    },
+    {
+      "kind": "string",
+      "start": 1571964,
+      "end": 1571989,
+      "key": "Unpin this conversation",
+      "expected": "\"Unpin this conversation\""
+    },
+    {
+      "kind": "string",
+      "start": 1572059,
+      "end": 1572085,
+      "key": "Rename this conversation",
+      "expected": "\"Rename this conversation\""
+    },
+    {
+      "kind": "string",
       "start": 1572148,
       "end": 1572167,
       "key": "Remove from Group",
@@ -303,6 +324,13 @@
       "end": 1595388,
       "key": "Open in Code Search",
       "expected": "\"Open in Code Search\""
+    },
+    {
+      "kind": "string",
+      "start": 1595487,
+      "end": 1595509,
+      "key": "Comment on Selection",
+      "expected": "\"Comment on Selection\""
     },
     {
       "kind": "string",
@@ -1352,6 +1380,13 @@
     },
     {
       "kind": "string",
+      "start": 3060400,
+      "end": 3060409,
+      "key": "to exit",
+      "expected": "\"to exit\""
+    },
+    {
+      "kind": "string",
       "start": 3078027,
       "end": 3078032,
       "key": "Cut",
@@ -1363,6 +1398,13 @@
       "end": 3078157,
       "key": "Paste",
       "expected": "\"Paste\""
+    },
+    {
+      "kind": "string",
+      "start": 3078249,
+      "end": 3078261,
+      "key": "Select All",
+      "expected": "\"Select All\""
     },
     {
       "kind": "string",
@@ -1849,6 +1891,34 @@
     },
     {
       "kind": "string",
+      "start": 3178599,
+      "end": 3178624,
+      "key": "Markdown Artifact Width",
+      "expected": "\"Markdown Artifact Width\""
+    },
+    {
+      "kind": "string",
+      "start": 3178637,
+      "end": 3178689,
+      "key": "Configure the default width of markdown artifacts.",
+      "expected": "\"Configure the default width of markdown artifacts.\""
+    },
+    {
+      "kind": "string",
+      "start": 3178903,
+      "end": 3178916,
+      "key": "Table Width",
+      "expected": "\"Table Width\""
+    },
+    {
+      "kind": "string",
+      "start": 3178929,
+      "end": 3178969,
+      "key": "Configure the default width of tables.",
+      "expected": "\"Configure the default width of tables.\""
+    },
+    {
+      "kind": "string",
       "start": 3179157,
       "end": 3179180,
       "key": "Suggestions in Editor",
@@ -2157,6 +2227,13 @@
     },
     {
       "kind": "string",
+      "start": 3185896,
+      "end": 3186240,
+      "key": "Give each Best of N fork a full clone of your workspace, including its local commit history (Fig and Piper only; JJ temporarily falls back to standard CitC clones). Choosing a winner then gives your workspace that fork's state, so the commits it made are kept. Forks take longer to create than the default CitC clone. See go/jetski-best-of-n.",
+      "expected": "\"Give each Best of N fork a full clone of your workspace, including its local commit history (Fig and Piper only; JJ temporarily falls back to standard CitC clones). Choosing a winner then gives your workspace that fork's state, so the commits it made are kept. Forks take longer to create than the default CitC clone. See go/jetski-best-of-n.\""
+    },
+    {
+      "kind": "string",
       "start": 3186339,
       "end": 3186374,
       "key": "Use full Git clones for Best of N",
@@ -2168,6 +2245,13 @@
       "end": 3186693,
       "key": "Give each Best of N fork its own clone of your Git repository instead of a copy-on-write overlay. Each fork is then a real repository, so commits it makes are kept when you choose it as the winner. Forks take longer to create, and the wait grows with the size of your repository. See go/jetski-best-of-n.",
       "expected": "\"Give each Best of N fork its own clone of your Git repository instead of a copy-on-write overlay. Each fork is then a real repository, so commits it makes are kept when you choose it as the winner. Forks take longer to create, and the wait grows with the size of your repository. See go/jetski-best-of-n.\""
+    },
+    {
+      "kind": "string",
+      "start": 3186907,
+      "end": 3186915,
+      "key": "Tables",
+      "expected": "\"Tables\""
     },
     {
       "kind": "string",
@@ -2234,6 +2318,13 @@
       "end": 3278855,
       "key": "Close",
       "expected": "\"Close\""
+    },
+    {
+      "kind": "string",
+      "start": 3279598,
+      "end": 3279616,
+      "key": "Loading media...",
+      "expected": "\"Loading media...\""
     },
     {
       "kind": "string",
@@ -3073,6 +3164,20 @@
     },
     {
       "kind": "string",
+      "start": 3845419,
+      "end": 3845462,
+      "key": "Describe a plugin and the agent builds it",
+      "expected": "\"Describe a plugin and the agent builds it\""
+    },
+    {
+      "kind": "string",
+      "start": 3845476,
+      "end": 3845491,
+      "key": "Create plugin",
+      "expected": "\"Create plugin\""
+    },
+    {
+      "kind": "string",
       "start": 3845630,
       "end": 3845638,
       "key": "Create",
@@ -3084,6 +3189,13 @@
       "end": 3846622,
       "key": "Global",
       "expected": "\"Global\""
+    },
+    {
+      "kind": "string",
+      "start": 3846714,
+      "end": 3846723,
+      "key": "Builtin",
+      "expected": "\"Builtin\""
     },
     {
       "kind": "string",
@@ -3129,6 +3241,20 @@
       "end": 3851938,
       "key": "Path copied!",
       "expected": "\"Path copied!\""
+    },
+    {
+      "kind": "expression",
+      "start": 3852431,
+      "end": 3852432,
+      "expected": "a",
+      "replacement": "__agZhUI(a)"
+    },
+    {
+      "kind": "expression",
+      "start": 3853115,
+      "end": 3853116,
+      "expected": "b",
+      "replacement": "__agZhUI(b)"
     },
     {
       "kind": "string",
@@ -3724,10 +3850,45 @@
     },
     {
       "kind": "string",
+      "start": 3949948,
+      "end": 3949962,
+      "key": "Delete Skill",
+      "expected": "\"Delete Skill\""
+    },
+    {
+      "kind": "string",
       "start": 3950144,
       "end": 3950153,
       "key": "Delete ",
       "expected": "\"Delete \""
+    },
+    {
+      "kind": "string",
+      "start": 3950192,
+      "end": 3950239,
+      "key": "? This removes it from your config directory.",
+      "expected": "\"? This removes it from your config directory.\""
+    },
+    {
+      "kind": "string",
+      "start": 3950625,
+      "end": 3950714,
+      "key": "This skill came from the marketplace, so you can install it again whenever you need it.",
+      "expected": "\"This skill came from the marketplace, so you can install it again whenever you need it.\""
+    },
+    {
+      "kind": "string",
+      "start": 3951091,
+      "end": 3951115,
+      "key": "This cannot be undone.",
+      "expected": "\"This cannot be undone.\""
+    },
+    {
+      "kind": "string",
+      "start": 3951117,
+      "end": 3951178,
+      "key": " Copy the folder elsewhere first if you might want it back.",
+      "expected": "\" Copy the folder elsewhere first if you might want it back.\""
     },
     {
       "kind": "string",
@@ -3749,6 +3910,20 @@
       "end": 3951700,
       "key": "Delete",
       "expected": "\"Delete\""
+    },
+    {
+      "kind": "string",
+      "start": 3952623,
+      "end": 3952648,
+      "key": "Skills & rules settings",
+      "expected": "\"Skills & rules settings\""
+    },
+    {
+      "kind": "string",
+      "start": 3952662,
+      "end": 3952689,
+      "key": "Skills and rules settings",
+      "expected": "\"Skills and rules settings\""
     },
     {
       "kind": "string",
@@ -3787,6 +3962,13 @@
       "end": 3954775,
       "key": "Type",
       "expected": "\"Type\""
+    },
+    {
+      "kind": "string",
+      "start": 3954943,
+      "end": 3954951,
+      "key": "Source",
+      "expected": "\"Source\""
     },
     {
       "kind": "string",
@@ -3867,10 +4049,31 @@
     },
     {
       "kind": "string",
+      "start": 3969493,
+      "end": 3969531,
+      "key": "No customizations match your search.",
+      "expected": "\"No customizations match your search.\""
+    },
+    {
+      "kind": "string",
+      "start": 3969581,
+      "end": 3969597,
+      "key": "Skills & Rules",
+      "expected": "\"Skills & Rules\""
+    },
+    {
+      "kind": "string",
       "start": 3969970,
       "end": 3969985,
       "key": "Custom Agents",
       "expected": "\"Custom Agents\""
+    },
+    {
+      "kind": "string",
+      "start": 3970098,
+      "end": 3970119,
+      "key": "Custom Agent Error:",
+      "expected": "\"Custom Agent Error:\""
     },
     {
       "kind": "string",
@@ -3996,6 +4199,13 @@
       "end": 3985661,
       "key": "Stay Tuned",
       "expected": "\"Stay Tuned\""
+    },
+    {
+      "kind": "string",
+      "start": 3986890,
+      "end": 3986905,
+      "key": "Pre-installed",
+      "expected": "\"Pre-installed\""
     },
     {
       "kind": "template",
@@ -4590,6 +4800,13 @@
     },
     {
       "kind": "string",
+      "start": 4027537,
+      "end": 4027559,
+      "key": "Customizations views",
+      "expected": "\"Customizations views\""
+    },
+    {
+      "kind": "string",
       "start": 4029311,
       "end": 4029327,
       "key": "Customizations",
@@ -4642,6 +4859,13 @@
     },
     {
       "kind": "string",
+      "start": 4060726,
+      "end": 4060743,
+      "key": "Amend succeeded",
+      "expected": "\"Amend succeeded\""
+    },
+    {
+      "kind": "string",
       "start": 4061016,
       "end": 4061024,
       "key": "Commit",
@@ -4691,6 +4915,20 @@
       "end": 4062228,
       "key": "Failed to Commit",
       "expected": "\"Failed to Commit\""
+    },
+    {
+      "kind": "string",
+      "start": 4062271,
+      "end": 4062278,
+      "key": "Amend",
+      "expected": "\"Amend\""
+    },
+    {
+      "kind": "string",
+      "start": 4063164,
+      "end": 4063181,
+      "key": "Failed to Amend",
+      "expected": "\"Failed to Amend\""
     },
     {
       "kind": "string",
@@ -6827,6 +7065,13 @@
     },
     {
       "kind": "string",
+      "start": 4732790,
+      "end": 4732812,
+      "key": "Cancel questionnaire",
+      "expected": "\"Cancel questionnaire\""
+    },
+    {
+      "kind": "string",
       "start": 4732878,
       "end": 4732886,
       "key": "Cancel",
@@ -7168,6 +7413,13 @@
       "end": 4758718,
       "key": "lines",
       "expected": "\"lines\""
+    },
+    {
+      "kind": "string",
+      "start": 4758719,
+      "end": 4758735,
+      "key": " above hidden)",
+      "expected": "\" above hidden)\""
     },
     {
       "kind": "string",
@@ -9099,6 +9351,13 @@
     },
     {
       "kind": "string",
+      "start": 4991284,
+      "end": 4991326,
+      "key": "e.g. \"gemini-api:/models/gemini-v3-byom\"",
+      "expected": "'e.g. \"gemini-api:/models/gemini-v3-byom\"'"
+    },
+    {
+      "kind": "string",
       "start": 4991504,
       "end": 4991533,
       "key": "Max Tokens Until Compaction",
@@ -9556,6 +9815,13 @@
       "end": 5063516,
       "key": "Execute a command",
       "expected": "\"Execute a command\""
+    },
+    {
+      "kind": "string",
+      "start": 5063670,
+      "end": 5063698,
+      "key": "Administrator access (UAC)",
+      "expected": "\"Administrator access (UAC)\""
     },
     {
       "kind": "template",
@@ -11076,6 +11342,13 @@
     },
     {
       "kind": "string",
+      "start": 5227568,
+      "end": 5227747,
+      "key": "Verify that these licenses were provided by your administrator and that you trust the project ID before proceeding. Account activity and data may be logged by your organization.",
+      "expected": "\"Verify that these licenses were provided by your administrator and that you trust the project ID before proceeding. Account activity and data may be logged by your organization.\""
+    },
+    {
+      "kind": "string",
       "start": 5227952,
       "end": 5227982,
       "key": "Provide Google Cloud Project",
@@ -11101,6 +11374,13 @@
       "end": 5229276,
       "key": "Select License",
       "expected": "\"Select License\""
+    },
+    {
+      "kind": "string",
+      "start": 5229350,
+      "end": 5229529,
+      "key": "Verify that these licenses were provided by your administrator and that you trust the project ID before proceeding. Account activity and data may be logged by your organization.",
+      "expected": "\"Verify that these licenses were provided by your administrator and that you trust the project ID before proceeding. Account activity and data may be logged by your organization.\""
     },
     {
       "kind": "string",
@@ -11213,6 +11493,13 @@
       "end": 5234281,
       "key": "No License Found",
       "expected": "\"No License Found\""
+    },
+    {
+      "kind": "string",
+      "start": 5234401,
+      "end": 5234580,
+      "key": "Verify that these licenses were provided by your administrator and that you trust the project ID before proceeding. Account activity and data may be logged by your organization.",
+      "expected": "\"Verify that these licenses were provided by your administrator and that you trust the project ID before proceeding. Account activity and data may be logged by your organization.\""
     },
     {
       "kind": "string",
@@ -11558,6 +11845,13 @@
     },
     {
       "kind": "string",
+      "start": 5260145,
+      "end": 5260189,
+      "key": "Failed to parse settings. Fix and restart.",
+      "expected": "\"Failed to parse settings. Fix and restart.\""
+    },
+    {
+      "kind": "string",
       "start": 5260435,
       "end": 5260443,
       "key": "Copied",
@@ -11583,6 +11877,27 @@
       "end": 5262326,
       "key": "Back",
       "expected": "\"Back\""
+    },
+    {
+      "kind": "expression",
+      "start": 5262737,
+      "end": 5262738,
+      "expected": "b",
+      "replacement": "__agZhUI(b)"
+    },
+    {
+      "kind": "expression",
+      "start": 5263440,
+      "end": 5263441,
+      "expected": "a",
+      "replacement": "__agZhUI(a)"
+    },
+    {
+      "kind": "expression",
+      "start": 5263735,
+      "end": 5263736,
+      "expected": "b",
+      "replacement": "__agZhUI(b)"
     },
     {
       "kind": "string",
@@ -11958,14 +12273,18 @@
       "expected": "\"Continue your work from another device with Remote Control. Scan the QR code or open the link below.\""
     },
     {
-      "kind": "template",
-      "start": 5294203,
-      "end": 5294229,
-      "key": "{0} (disabled by admin)",
-      "expressions": [
-        "t"
-      ],
-      "expected": "`${t} (disabled by admin)`"
+      "kind": "expression",
+      "start": 5293818,
+      "end": 5293819,
+      "expected": "a",
+      "replacement": "__agZhUI(a)"
+    },
+    {
+      "kind": "expression",
+      "start": 5294198,
+      "end": 5294232,
+      "expected": "u&&v?`${t} (disabled by admin)`:\nt",
+      "replacement": "u&&v?`${__agZhUI(t)}（管理员已禁用）`:__agZhUI(t)"
     },
     {
       "kind": "string",
@@ -12164,6 +12483,20 @@
       "end": 5310095,
       "key": "Best of N",
       "expected": "\"Best of N\""
+    },
+    {
+      "kind": "string",
+      "start": 5310480,
+      "end": 5310511,
+      "key": "Best of N settings have moved",
+      "expected": "\"Best of N settings have moved\""
+    },
+    {
+      "kind": "string",
+      "start": 5310600,
+      "end": 5310676,
+      "key": "Best of N settings have moved to the Advanced section of General settings.",
+      "expected": "\"Best of N settings have moved to the Advanced section of General settings.\""
     },
     {
       "kind": "string",
@@ -12409,10 +12742,24 @@
     },
     {
       "kind": "string",
+      "start": 5322704,
+      "end": 5322724,
+      "key": "Web (desktop, PWA)",
+      "expected": "\"Web (desktop, PWA)\""
+    },
+    {
+      "kind": "string",
       "start": 5322775,
       "end": 5322806,
       "key": "Web (desktop, remote control)",
       "expected": "\"Web (desktop, remote control)\""
+    },
+    {
+      "kind": "string",
+      "start": 5322860,
+      "end": 5322896,
+      "key": "Web (desktop, remote control, PWA)",
+      "expected": "\"Web (desktop, remote control, PWA)\""
     },
     {
       "kind": "string",
@@ -12423,10 +12770,24 @@
     },
     {
       "kind": "string",
+      "start": 5322984,
+      "end": 5323003,
+      "key": "Web (mobile, PWA)",
+      "expected": "\"Web (mobile, PWA)\""
+    },
+    {
+      "kind": "string",
       "start": 5323052,
       "end": 5323082,
       "key": "Web (mobile, remote control)",
       "expected": "\"Web (mobile, remote control)\""
+    },
+    {
+      "kind": "string",
+      "start": 5323135,
+      "end": 5323170,
+      "key": "Web (mobile, remote control, PWA)",
+      "expected": "\"Web (mobile, remote control, PWA)\""
     },
     {
       "kind": "string",
@@ -12455,6 +12816,13 @@
       "end": 5323411,
       "key": "Extension (Visual Studio)",
       "expected": "\"Extension (Visual Studio)\""
+    },
+    {
+      "kind": "string",
+      "start": 5323453,
+      "end": 5323474,
+      "key": "Extension (Eclipse)",
+      "expected": "\"Extension (Eclipse)\""
     },
     {
       "kind": "string",
@@ -12525,6 +12893,13 @@
       "end": 5324683,
       "key": "Host Environment",
       "expected": "\"Host Environment\""
+    },
+    {
+      "kind": "string",
+      "start": 5324696,
+      "end": 5324803,
+      "key": "Simulate a different host (Electron, desktop or mobile Web, Extension, remote control, or installed PWA).",
+      "expected": "\"Simulate a different host (Electron, desktop or mobile Web, Extension, remote control, or installed PWA).\""
     },
     {
       "kind": "string",
@@ -13073,6 +13448,20 @@
     },
     {
       "kind": "string",
+      "start": 5344673,
+      "end": 5344699,
+      "key": "CitC settings have moved",
+      "expected": "\"CitC settings have moved\""
+    },
+    {
+      "kind": "string",
+      "start": 5344788,
+      "end": 5344859,
+      "key": "CitC settings have moved to the Advanced section of General settings.",
+      "expected": "\"CitC settings have moved to the Advanced section of General settings.\""
+    },
+    {
+      "kind": "string",
       "start": 5344994,
       "end": 5345018,
       "key": "Go to General settings",
@@ -13084,6 +13473,20 @@
       "end": 5345382,
       "key": "Labs",
       "expected": "\"Labs\""
+    },
+    {
+      "kind": "string",
+      "start": 5345762,
+      "end": 5345788,
+      "key": "Labs settings have moved",
+      "expected": "\"Labs settings have moved\""
+    },
+    {
+      "kind": "string",
+      "start": 5345877,
+      "end": 5345948,
+      "key": "Labs settings have moved to the Advanced section of General settings.",
+      "expected": "\"Labs settings have moved to the Advanced section of General settings.\""
     },
     {
       "kind": "string",
@@ -13598,6 +14001,13 @@
       "end": 5365138,
       "key": "Ask for permission for sensitive operations.",
       "expected": "\"Ask for permission for sensitive operations.\""
+    },
+    {
+      "kind": "string",
+      "start": 5365403,
+      "end": 5365421,
+      "key": "Vetted (Preview)",
+      "expected": "\"Vetted (Preview)\""
     },
     {
       "kind": "string",
@@ -14963,6 +15373,13 @@
       "end": 5402954,
       "key": "Labs",
       "expected": "\"Labs\""
+    },
+    {
+      "kind": "string",
+      "start": 5402974,
+      "end": 5403162,
+      "key": "Try out early-stage features before they ship. These may be changed or removed at any time. These features are experimental, and we make no guarantees about performance or functionality.",
+      "expected": "\"Try out early-stage features before they ship. These may be changed or removed at any time. These features are experimental, and we make no guarantees about performance or functionality.\""
     },
     {
       "kind": "string",
@@ -17306,6 +17723,13 @@
     },
     {
       "kind": "string",
+      "start": 5656377,
+      "end": 5656395,
+      "key": "Conversation Log",
+      "expected": "\"Conversation Log\""
+    },
+    {
+      "kind": "string",
       "start": 5664182,
       "end": 5664206,
       "key": "Open side-by-side view",
@@ -17508,6 +17932,13 @@
     },
     {
       "kind": "string",
+      "start": 5685221,
+      "end": 5685253,
+      "key": "Grant administrator access for",
+      "expected": "\"Grant administrator access for\""
+    },
+    {
+      "kind": "string",
       "start": 5687550,
       "end": 5687644,
       "key": "Confirm the command is safe to run outside of the sandbox with full network and disk access.",
@@ -17610,10 +18041,24 @@
     },
     {
       "kind": "string",
+      "start": 5704120,
+      "end": 5704142,
+      "key": "Delete side question",
+      "expected": "\"Delete side question\""
+    },
+    {
+      "kind": "string",
       "start": 5704151,
       "end": 5704159,
       "key": "Delete",
       "expected": "\"Delete\""
+    },
+    {
+      "kind": "string",
+      "start": 5704280,
+      "end": 5704304,
+      "key": "Minimize side question",
+      "expected": "\"Minimize side question\""
     },
     {
       "kind": "string",
@@ -17698,6 +18143,13 @@
       "end": 5712582,
       "key": "(Optional) Tell us more...",
       "expected": "\"(Optional) Tell us more...\""
+    },
+    {
+      "kind": "string",
+      "start": 5712596,
+      "end": 5712619,
+      "key": "Reason for opting out",
+      "expected": "\"Reason for opting out\""
     },
     {
       "kind": "string",
@@ -17827,6 +18279,13 @@
       "end": 5718261,
       "key": "(Optional) Tell us more or type your reason...",
       "expected": "\"(Optional) Tell us more or type your reason...\""
+    },
+    {
+      "kind": "string",
+      "start": 5718275,
+      "end": 5718298,
+      "key": "Reason for opting out",
+      "expected": "\"Reason for opting out\""
     },
     {
       "kind": "string",
@@ -17977,6 +18436,13 @@
     },
     {
       "kind": "string",
+      "start": 5736899,
+      "end": 5736910,
+      "key": "More info",
+      "expected": "\"More info\""
+    },
+    {
+      "kind": "string",
       "start": 5737235,
       "end": 5737470,
       "key": "In autonomous mode, the agent works with autonomy-enhancing features, and does not ask questions or request new permissions. To turn it off, open the modes dropdown in the toolbar below the input box and switch off \"Autonomous mode\".",
@@ -18040,6 +18506,20 @@
       "end": 5742941,
       "key": "To use browser tools, you need to enable remote debugging:",
       "expected": "\"To use browser tools, you need to enable remote debugging:\""
+    },
+    {
+      "kind": "string",
+      "start": 5743078,
+      "end": 5743134,
+      "key": "Open Google Chrome on the machine running Antigravity.",
+      "expected": "\"Open Google Chrome on the machine running Antigravity.\""
+    },
+    {
+      "kind": "string",
+      "start": 5743192,
+      "end": 5743237,
+      "key": "If that machine is a cloudtop, reach it via",
+      "expected": "\"If that machine is a cloudtop, reach it via\""
     },
     {
       "kind": "string",
@@ -18322,6 +18802,20 @@
     },
     {
       "kind": "string",
+      "start": 5792597,
+      "end": 5792604,
+      "expected": "\"Local\"",
+      "key": "Local"
+    },
+    {
+      "kind": "string",
+      "start": 5792840,
+      "end": 5792847,
+      "expected": "\"Local\"",
+      "key": "Local"
+    },
+    {
+      "kind": "string",
       "start": 5793054,
       "end": 5793071,
       "key": "Select Worktree",
@@ -18403,6 +18897,13 @@
       "end": 5797204,
       "key": "New Fig Workspace",
       "expected": "\"New Fig Workspace\""
+    },
+    {
+      "kind": "string",
+      "start": 5797546,
+      "end": 5797553,
+      "expected": "\"Local\"",
+      "key": "Local"
     },
     {
       "kind": "string",
@@ -19994,6 +20495,13 @@
     },
     {
       "kind": "string",
+      "start": 6004340,
+      "end": 6004388,
+      "key": "Change VCS in General settings, under Advanced",
+      "expected": "\"Change VCS in General settings, under Advanced\""
+    },
+    {
+      "kind": "string",
       "start": 6004463,
       "end": 6004479,
       "key": "Select Project",
@@ -21140,6 +21648,27 @@
     },
     {
       "kind": "string",
+      "start": 6145913,
+      "end": 6145940,
+      "key": "What counts as a document",
+      "expected": "\"What counts as a document\""
+    },
+    {
+      "kind": "string",
+      "start": 6146256,
+      "end": 6146394,
+      "key": "Artifacts like Google Docs, PDFs, Office documents (Word, Excel, PowerPoint), etc. Everything else the agent creates is under Artifacts.",
+      "expected": "\"Artifacts like Google Docs, PDFs, Office documents (Word, Excel, PowerPoint), etc. Everything else the agent creates is under Artifacts.\""
+    },
+    {
+      "kind": "string",
+      "start": 6146790,
+      "end": 6146801,
+      "key": "Documents",
+      "expected": "\"Documents\""
+    },
+    {
+      "kind": "string",
       "start": 6147562,
       "end": 6147571,
       "key": "Refresh",
@@ -21158,6 +21687,13 @@
       "end": 6147648,
       "key": "Workspace",
       "expected": "\"Workspace\""
+    },
+    {
+      "kind": "string",
+      "start": 6148582,
+      "end": 6148597,
+      "key": "Scratch Files",
+      "expected": "\"Scratch Files\""
     },
     {
       "kind": "string",
@@ -21848,6 +22384,20 @@
       "end": 6224481,
       "key": "Window",
       "expected": "\"Window\""
+    },
+    {
+      "kind": "string",
+      "start": 6229177,
+      "end": 6229199,
+      "key": "Search Conversations",
+      "expected": "\"Search Conversations\""
+    },
+    {
+      "kind": "string",
+      "start": 6229310,
+      "end": 6229332,
+      "key": "Search Conversations",
+      "expected": "\"Search Conversations\""
     },
     {
       "kind": "string",
@@ -22631,6 +23181,13 @@
       "end": 6289663,
       "key": "See less",
       "expected": "\"See less\""
+    },
+    {
+      "kind": "string",
+      "start": 6290743,
+      "end": 6290791,
+      "key": "Your changes were not saved. Please try again.",
+      "expected": "\"Your changes were not saved. Please try again.\""
     },
     {
       "kind": "string",
@@ -26884,11 +27441,6 @@
       "replacement": "var c=BB()?\"取消 (⌃C)\":\"取消 (Ctrl+D)\";"
     },
     {
-      "purpose": "Translate Modified in Outside of Project label in settings",
-      "search": "var h=a[0],k=h.name||\"Untitled project\";",
-      "replacement": "var h=a[0],k=__agZhUI(h.name)||\"未命名项目\";"
-    },
-    {
       "purpose": "Translate Worked for in conversation header",
       "search": "return{headerText:`Worked for ${iJ(a&&e?(Number(e.seconds)-Number(a.seconds))*1E3+(e.nanos-a.nanos)",
       "replacement": "return{headerText:`已用时 ${iJ(a&&e?(Number(e.seconds)-Number(a.seconds))*1E3+(e.nanos-a.nanos)"
@@ -26897,6 +27449,16 @@
       "purpose": "Translate queue delivery strategy tooltip",
       "search": "case R.MessageDeliveryStrategy.NEXT_INVOCATION:return\"Interrupt the agent and send immediately.\";default:return\"Queue until after the current turn.\"",
       "replacement": "case R.MessageDeliveryStrategy.NEXT_INVOCATION:return\"打断 Agent 并立即发送。\";default:return\"排队等待当前轮次结束。\""
+    },
+    {
+      "purpose": "Translate customization filter labels without changing filter IDs",
+      "search": "const iR={all:\"All\",skills:\"Skills\",rules:\"Rules\",builtin:\"Builtin\",global:\"Global\",google3:\"Google3\"}",
+      "replacement": "const iR={all:\"全部\",skills:\"技能\",rules:\"规则\",builtin:\"内置\",global:\"全局\",google3:\"Google3\"}"
+    },
+    {
+      "purpose": "Translate standard token source categories in usage chart",
+      "search": "map((b,c)=>({label:b.name,tokens:b.numTokens,color:Abb[c%Abb.length]}))",
+      "replacement": "map((b,c)=>({label:({Skills:\"技能\",Rules:\"规则\",Tools:\"工具\",\"System Prompt\":\"系统提示词\"})[b.name]??b.name,tokens:b.numTokens,color:Abb[c%Abb.length]}))"
     }
   ],
   "legacyAsarSha256": [
