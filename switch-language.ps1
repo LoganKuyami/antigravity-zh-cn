@@ -1,4 +1,4 @@
-﻿param([ValidateSet('Chinese','English')][string]$Mode='Chinese',[string]$AppPath,[string]$BuildDirectory)
+param([ValidateSet('Chinese','English')][string]$Mode='Chinese',[string]$AppPath,[string]$BuildDirectory)
 $ErrorActionPreference='Stop'
 $packRoot=if ($BuildDirectory) { [IO.Path]::GetFullPath($BuildDirectory) } else { Join-Path $PSScriptRoot '.local-build' }
 $agRoot=if ($AppPath) { [IO.Path]::GetFullPath($AppPath) } else { Join-Path $env:LOCALAPPDATA 'Programs\antigravity' }
@@ -14,7 +14,7 @@ $liveAsar=Join-Path $agRes 'app.asar'
 $currentHash=(Get-FileHash -LiteralPath $liveAsar -Algorithm SHA256).Hash
 $englishHash=$manifest.files.'payload/app.english.asar'
 $chineseHash=$manifest.files.'payload/app.chinese.asar'
-if ($manifest.acceptedInstalledAsarSha256 -notcontains $currentHash) { throw 'Application differs from supported version 2.12.2. Refusing to overwrite an update or unknown patch.' }
+if ($manifest.acceptedInstalledAsarSha256 -notcontains $currentHash) { throw "Application differs from supported version $($manifest.version). Refusing to overwrite an update or unknown patch." }
 $running=@(Get-Process -ErrorAction SilentlyContinue | Where-Object { $_.ProcessName -eq 'Antigravity' -and $_.Path -eq $agExe })
 if ($running.Count -gt 0) { throw 'Exit Antigravity completely using its tray Quit command, then run this script again. No running tasks were terminated.' }
 $stamp=Get-Date -Format 'yyyyMMdd-HHmmss-fff'
